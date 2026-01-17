@@ -196,7 +196,8 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Use fixed email address (Resend test mode limitation - can only send to verified email)
     // This email receives ALL order notifications
-    const storeEmail = "elbialaymhmd@gmail.com";
+    const storeEmail = "eyadfergani10@gmail.com
+";
     console.log("Sending email to:", storeEmail);
 
     // Format payment method with HTML escaping
