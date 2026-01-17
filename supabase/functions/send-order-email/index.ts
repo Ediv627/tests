@@ -3,7 +3,7 @@ import { Resend } from "https://esm.sh/resend@2.0.0";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
 
-const resend = new Resend(Deno.env.get("RESEND_API_KEY"));
+const resend = new Resend(re_Gk7CTWRV_7J81FEEy3HeSyAp1gBck6UUY);
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
